@@ -1,0 +1,297 @@
+# Copyright (C) 2016 anyLink
+# This file is distributed under the same license as the anyLink package.
+msgid ""
+msgstr ""
+"Project-Id-Version: anyLink 0.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/anylink\n"
+"POT-Creation-Date: 2016-06-20 15:54+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-06-20 16:25+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#: al_setting.php:24 classes/al_option.php:14
+msgid "anylink Settings"
+msgstr "anylink 设置"
+
+#: al_setting.php:40
+msgid "URL whitelist"
+msgstr "URL 白名单"
+
+#: al_setting.php:44
+msgid ""
+"any link contains domain in this whitelist won't be covered to short URL"
+msgstr "所有包含白名单中列出的域名的链接，都将不会自动转换成内链"
+
+#: al_setting.php:45
+msgid "please make sure one domain or URL each row"
+msgstr "请确保每行只有一个域名或者链接"
+
+#: al_setting.php:46
+msgid "No 'http:' or 'www' needed"
+msgstr "不需要添加 http:// 或者 www （两者有无效果相同）"
+
+#: al_setting.php:47
+msgid "too many domains or urls are not recommended"
+msgstr "设置过多的白名单可能会影响系统性能"
+
+#: al_setting.php:51
+msgid "Update Rules"
+msgstr "更新白名单"
+
+#: al_setting.php:59
+msgid ""
+"Thanks for your chosing Anylink Wordpress plugin. Anylink is totally free "
+"now and in future. "
+msgstr "感谢您使用Anylink Wordpress插件。Anylink一款完全免费的插件。"
+
+#: al_setting.php:60
+msgid "To help Anylink keeping maintained, I need your support. "
+msgstr "为了使Anylink能够一直维护下去，您的支持对我来说很重要。"
+
+#: al_setting.php:61
+msgid "You can donate to me by two ways below. "
+msgstr "您可以通过下面的几种方法来支持我们的付出。"
+
+#: al_setting.php:62
+msgid "Also, you can recommend Anylink to other wordpress users."
+msgstr "同时，你也可以通过把Anylink推荐给其他Wordpress使用者来支持我们的工作。"
+
+#: al_setting.php:63
+msgid "Of course, you can leave a link point to my blog http://dudo.org. "
+msgstr ""
+"当然，如果你在你的网站上保留一个指向http://dudo.org的链接，这将是对我莫大的鼓"
+"励。"
+
+#: al_setting.php:64
+msgid "Anyway, thanks for all your support!"
+msgstr "总之，感谢一直以来您对Anylink的厚爱，希望您在未来多多听到您宝贵建议。"
+
+#: al_setting.php:94
+msgid "Donate via Paypal"
+msgstr "通过Paypal捐赠"
+
+#: al_setting.php:95
+msgid "Donate via Alipay by scanning QR code "
+msgstr "通过扫描二维码支付宝捐赠"
+
+#: al_setting.php:96
+msgid "Donate via Wechat by scanning QR code "
+msgstr "通过扫描二维码微信捐赠"
+
+#: al_setting.php:101
+msgid ""
+"Blog: <a href='http://dudo.org/' target='_blank'>http://dudo.org</a><br /"
+"><br />"
+msgstr ""
+"Blog： <a href='http://dudo.org/' target='_blank'>http://dudo.org</a><br /"
+"><br />"
+
+#: al_setting.php:102
+msgid "QQ discuss group: 325735994"
+msgstr "QQ群：325735994"
+
+#: al_setting.php:109 al_setting.php:118
+msgid "Establish Index"
+msgstr "建立索引"
+
+#: al_setting.php:112
+msgid ""
+"For the first time after you running anylink, you need indexing ALL posts. "
+"It'll let you establish index for the posts already in your Wordpress. For "
+"the newly publish or update post, index is done automatically. And you "
+"needn't do anything."
+msgstr ""
+"在第一次安装 andlink 时你需要对所有文章进行重新索引。 该过程是对原有文章中的"
+"外链进行索引。在安装anylink之后新发表/更新的文章anylink会自动完成索引，你不需"
+"要手动进行引操作。"
+
+#: al_setting.php:122
+msgid ""
+"For the first time running, you need scan all the exist comments manually."
+msgstr "第一次运行anylink插件，您必需手动扫描以前所有评论内容"
+
+#: al_setting.php:128
+msgid "Regenerate comment slugs"
+msgstr "重新生成评论slug"
+
+#: al_setting.php:131
+msgid ""
+"Allows you to generate slugs manually. Keep in mind that please do not "
+"regenerate slugs unless you changed slug settings. Search engines may think "
+"that you have modified your articles."
+msgstr ""
+"允许用户多次生成slug（链接后面的随机字母）。不过需要提醒的是，除非您修改了"
+"slug的样式，请尽量不要重新生成slug，这会改变您页面中的链接，对于搜索引擎来说"
+"可能会认为您的文章进行了修改。"
+
+#: al_setting.php:131
+msgid "Note: It won't work unless slug settings are changed"
+msgstr "注意：只有在“基本设置”中修改了slug样式时该功能才能使用。"
+
+#: al_setting.php:137
+msgid "Regenerate slugs"
+msgstr "重新生成slug"
+
+#: al_setting.php:207
+msgid "General"
+msgstr "通用设置"
+
+#: al_setting.php:207
+msgid "Whitelist"
+msgstr "白名单"
+
+#: al_setting.php:207
+msgid "Operation"
+msgstr "操作"
+
+#: al_setting.php:207
+msgid "Support"
+msgstr "支持"
+
+#: classes/al_option.php:25
+msgid "You do not have sufficient permissions to access this page."
+msgstr "没有足够权限访问本页面"
+
+#: classes/al_option.php:33
+msgid "General Settings"
+msgstr "通用设置"
+
+#: classes/al_option.php:34
+msgid "Redirect catalog"
+msgstr "跳转目录"
+
+#: classes/al_option.php:35
+msgid "Redirect HTTP code"
+msgstr "跳转HTTP代码"
+
+#: classes/al_option.php:36
+msgid "Length of slugs"
+msgstr "自动生产链接slug的长度"
+
+#: classes/al_option.php:37
+msgid "Component of slug"
+msgstr "自动生产链接slug的构成"
+
+#: classes/al_option.php:39
+msgid "Post Types"
+msgstr "需要转换的文章类型"
+
+#: classes/al_option.php:40
+msgid "Link properties"
+msgstr "链接属性\t"
+
+#: classes/al_option.php:41
+msgid "Turn on comment filter."
+msgstr "开启对评论中链接转换"
+
+#: classes/al_option.php:48
+msgid ""
+"Make sure it starts with a letter, ONLY contains letters, numbers, "
+"underscore and dash. The max. length is 12"
+msgstr ""
+"请确保以字母开头，且仅含有字母、数字、下划线、连接符，最大长度不超过12个"
+
+#: classes/al_option.php:68
+msgid "301 Moved Permanently"
+msgstr "301 永久性跳转"
+
+#: classes/al_option.php:70
+msgid "307 Temporary Redirect"
+msgstr "307 临时性跳转"
+
+#: classes/al_option.php:72
+msgid "Redirect using Javascript on a single page"
+msgstr "javascript中间页跳转"
+
+#: classes/al_option.php:77
+msgid "No less than 4 and no more than 12 characters"
+msgstr "长度最短不超过4位，最长不超过12位"
+
+#: classes/al_option.php:83
+msgid "Pure digits"
+msgstr "纯数字"
+
+#: classes/al_option.php:86
+msgid "Pure alphabets"
+msgstr "纯字母"
+
+#: classes/al_option.php:89
+msgid "Digits and alphabets"
+msgstr "字母与数字组合"
+
+#: classes/al_option.php:90
+msgid ""
+"Recommended setting is 4 digits and alphabets. If using PURE DIGITS please "
+"set the length no less than 6."
+msgstr "建议slug设置为4位字母与数字混合。单纯使用数字时长度最好设置为6位以上。"
+
+#: classes/al_option.php:112
+msgid ""
+"Select which type(s) of post you want to covert. Even though you select none "
+"of these, this plug-in is still working. Once you changed these options, you "
+"needn't regenerate slugs at all."
+msgstr ""
+"选择哪些“文章类型”中的链接需要转换。即使你一个都不选，插件仍然处于工作状态。"
+"请注意，无论何时你改变了这些选项，都不需要重新生成索引。"
+
+#: classes/al_option.php:121
+msgid ""
+"Set the property 'rel' of URLs. If you want to use the default property, "
+"please leave it blank."
+msgstr ""
+"设置URL的rel属性值。如果不想让anylink修改转换后链接中的rel属性，请将此项留空"
+
+#: classes/al_option.php:122
+msgid "Use single blank character to seperate its values."
+msgstr "每个值中间请有一个半角空格分隔开"
+
+#: classes/al_option.php:130
+msgid "Allow anylink to filter external url in comment."
+msgstr "转换评论中出现的外部链接"
+
+#: classes/al_option.php:133
+msgid "Please leave comments unfiltered."
+msgstr "对评论中的链接不转换"
+
+#: classes/al_option.php:136
+msgid "Filter link(s) in comment"
+msgstr "转换评论中的链接"
+
+#: classes/al_option.php:205
+msgid "Do not apply anylink plugin for this post."
+msgstr "不使用anylink转换文章中的外链"
+
+#. Plugin Name of the plugin/theme
+msgid "anyLink"
+msgstr "anylink"
+
+#. Plugin URI of the plugin/theme
+msgid "http://dudo.org/anylink"
+msgstr "http://dudo.org/anylink"
+
+#. Description of the plugin/theme
+msgid ""
+"Anylink is light wordpress plugin. It can generate short urls from a post or "
+"comment without you do anything. Most important is anylink does not change "
+"your database. That means once you uninstalled this plugin everything will "
+"looks like they are before."
+msgstr ""
+"Anylink 是一款链接转换插件，它可以把长链接转换成短链接，也可以将外部链接转换"
+"成内部链接，同时还可以隐藏真实的链接地址。Anylink针对搜索引擎进行了专门的SEO"
+"处理，可以有效防止网站权重对外传递。同时它不会修改wordpress自带的数据库，也不"
+"会修改文章中的任何内容，无论什么时候都不会影响到你数据的完整性。是同类插件中"
+"安全性较高、方便灵活的轻量级插件。"
+
+#. Author of the plugin/theme
+msgid "dudo"
+msgstr "dudo"
+
+#. Author URI of the plugin/theme
+msgid "http://dudo.org/about"
+msgstr "http://dudo.org/about"
