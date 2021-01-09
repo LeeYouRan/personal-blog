@@ -13,7 +13,7 @@ Welcome. WordPress is a very special project to me. Every developer and contribu
 1.  Unzip the package in an empty directory and upload everything.
 2.  Open <span class="file">[wp-admin/install.php](wp-admin/install.php)</span> in your browser. It will take you through the process to set up a `wp-config.php` file with your database connection details.
 
-        1.  If for some reason this doesn&#8217;t work, don&#8217;t worry. It doesn&#8217;t work on all web hosts. Open up `wp-config-sample.php` with a text editor like WordPad or similar and fill in your database connection details.
+    1. If for some reason this doesn&#8217;t work, don&#8217;t worry. It doesn&#8217;t work on all web hosts. Open up `wp-config-sample.php` with a text editor like WordPad or similar and fill in your database connection details.
     2.  Save the file as `wp-config.php` and upload it.
     3.  Open <span class="file">[wp-admin/install.php](wp-admin/install.php)</span> in your browser.
 3.  Once the configuration file is set up, the installer will set up the tables needed for your site. If there is an error, double check your `wp-config.php` file, and try again. If it fails again, please go to the [WordPress support forums](https://wordpress.org/support/forums/) with as much data as you can gather.
